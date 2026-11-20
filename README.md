@@ -1,6 +1,6 @@
 # Hadrian Interview Prep — Forward Deployed Engineer
 
-Prep notes for the Hadrian FDE interview loop. See [FDE Role Description.md](FDE%20Role%20Description.md) for the full job posting.
+Prep notes for the Hadrian FDE interview loop. See [FDE Role Description.md](FDE%20Role%20Description.md) for the full job posting and [Leadership Mock Interview.md](Leadership%20Mock%20Interview.md) for a practice script.
 
 ## Schedule
 
