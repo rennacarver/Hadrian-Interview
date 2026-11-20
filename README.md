@@ -68,3 +68,17 @@ How you specify what you want and direct the work:
 
 - Tell me about your most exciting project.
 - How would you add extra features to the take-home project?
+
+## Sources
+
+- [Glassdoor — Hadrian interview questions](https://www.glassdoor.com/Interview/Hadrian-Interview-Questions-E5364733.htm)
+- [techinterview.org — How to prep for a Hadrian engineer interview](https://www.techinterview.org/post/3233477824/how-to-prep-hadrian-engineer-interview/)
+- [Lux Capital job board — Hadrian Forward Deployed Engineer](https://jobs.luxcapital.com/companies/hadrian/jobs/85441918-forward-deployed-engineer)
+- [a16z job board — Director of Engineering, Forward Deployed Engineering](https://jobs.a16z.com/jobs/hadrian/1153f8c7-57ca-49bc-b4ea-b1262aebf255--director-of-engineering-forward-deployed-engineering)
+- [Contrary Research — Hadrian report](https://research.contrary.com/reports/hadrian)
+- [The Robot Report — Hadrian raises $1.37B](https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/)
+- [3DPrint.com — Hadrian launches additive manufacturing division](https://3dprint.com/323475/factories-as-a-service-startup-hadrian-launches-additive-manufacturing-division/)
+- [Hadrian blog — Series C announcement](https://www.hadrian.co/blog/series-c)
+- [TechCrunch — Hadrian CEO wants to revitalize American industry](https://techcrunch.com/2024/02/21/hadrian-automations-ceo-wants-to-defy-history-and-revitalize-american-industry)
+- [Antoine Buteau — Lessons from Chris Power](https://www.antoinebuteau.com/lessons-from-chris-power/) (secondhand quote compilation, unverified)
+- [Sourcery — Chris Power interview](https://www.sourcery.vc/p/exclusive-chris-power-of-hadrian)
