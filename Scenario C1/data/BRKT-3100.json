@@ -1,0 +1,12 @@
+{
+  "job_id": "BRKT-3100",
+  "ops": [
+    { "id": "op10", "name": "Saw cut stock",   "machine_type": "saw",     "hours": 1, "after": [] },
+    { "id": "op20", "name": "Mill side A",     "machine_type": "mill",    "hours": 4, "after": ["op10"] },
+    { "id": "op30", "name": "Turn boss",       "machine_type": "lathe",   "hours": 3, "after": ["op10"] },
+    { "id": "op40", "name": "Mill side B",     "machine_type": "mill",    "hours": 5, "after": ["op20"] },
+    { "id": "op50", "name": "Deburr",          "machine_type": "bench",   "hours": 1, "after": ["op40", "op30"] },
+    { "id": "op60", "name": "Anodize",         "machine_type": "anodize", "hours": 72, "after": ["op50"] },
+    { "id": "op70", "name": "Final inspect",   "machine_type": "cmm",     "hours": 2, "after": ["op60"] }
+  ]
+}
