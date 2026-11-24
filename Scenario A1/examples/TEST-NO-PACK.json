@@ -1,0 +1,9 @@
+{
+  "routing_id": "R-T009",
+  "part": "TEST-NO-PACK",
+  "customer": "Customer A",
+  "operations": [
+    { "id": "op10", "type": "MILL", "after": [] },
+    { "id": "op20", "type": "CMM_INSPECT", "after": ["op10"] }
+  ]
+}

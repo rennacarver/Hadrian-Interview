@@ -1,0 +1,12 @@
+{
+  "routing_id": "R-T001",
+  "part": "TEST-CLEAN",
+  "customer": "Customer A",
+  "operations": [
+    { "id": "op10", "type": "MILL", "after": [] },
+    { "id": "op20", "type": "DEBURR", "after": ["op10"] },
+    { "id": "op30", "type": "ANODIZE", "after": ["op20"] },
+    { "id": "op40", "type": "CMM_INSPECT", "after": ["op30"] },
+    { "id": "op50", "type": "PACK", "after": ["op40"] }
+  ]
+}

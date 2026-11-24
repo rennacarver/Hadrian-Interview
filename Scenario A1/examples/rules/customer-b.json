@@ -1,0 +1,3 @@
+[
+  { "id": "TWO_VISUAL_INSPECTIONS", "kind": "MIN_COUNT", "types": ["VISUAL_INSPECT"], "min": 2 }
+]

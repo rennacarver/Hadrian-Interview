@@ -1,0 +1,11 @@
+{
+  "routing_id": "R-T007",
+  "part": "TEST-CYCLE",
+  "customer": "Customer A",
+  "operations": [
+    { "id": "op10", "type": "MILL", "after": [] },
+    { "id": "op20", "type": "CMM_INSPECT", "after": ["op10", "op30"] },
+    { "id": "op30", "type": "VISUAL_INSPECT", "after": ["op20"] },
+    { "id": "op40", "type": "PACK", "after": ["op30"] }
+  ]
+}

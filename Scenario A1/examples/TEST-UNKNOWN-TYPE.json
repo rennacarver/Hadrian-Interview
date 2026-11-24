@@ -1,0 +1,11 @@
+{
+  "routing_id": "R-T008",
+  "part": "TEST-UNKNOWN-TYPE",
+  "customer": "Customer A",
+  "operations": [
+    { "id": "op10", "type": "MILL", "after": [] },
+    { "id": "op20", "type": "CMM_INSPECT", "after": ["op10"] },
+    { "id": "op30", "type": "LASER_MARK", "after": ["op20"] },
+    { "id": "op40", "type": "PACK", "after": ["op30"] }
+  ]
+}

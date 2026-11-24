@@ -1,0 +1,12 @@
+{
+  "routing_id": "R-09876",
+  "part": "HSG-0187",
+  "customer": "Customer A",
+  "operations": [
+    { "id": "op10", "type": "TURN",           "after": [] },
+    { "id": "op20", "type": "MILL",           "after": ["op10"] },
+    { "id": "op30", "type": "DEBURR",         "after": ["op20"] },
+    { "id": "op40", "type": "VISUAL_INSPECT", "after": ["op30"] },
+    { "id": "op50", "type": "PACK",           "after": ["op40"] }
+  ]
+}

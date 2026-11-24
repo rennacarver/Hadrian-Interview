@@ -1,0 +1,10 @@
+{
+  "routing_id": "R-T006",
+  "part": "TEST-INVALID-AFTER",
+  "customer": "Customer A",
+  "operations": [
+    { "id": "op10", "type": "MILL", "after": [] },
+    { "id": "op20", "type": "CMM_INSPECT", "after": ["op10", "op99"] },
+    { "id": "op30", "type": "PACK", "after": ["op20"] }
+  ]
+}

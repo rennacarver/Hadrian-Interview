@@ -1,0 +1,13 @@
+{
+  "routing_id": "R-10442",
+  "part": "BRKT-2201",
+  "customer": "Customer A",
+  "operations": [
+    { "id": "op10", "type": "MILL",           "after": [] },
+    { "id": "op20", "type": "MILL",           "after": [] },
+    { "id": "op30", "type": "DEBURR",         "after": ["op10"] },
+    { "id": "op40", "type": "ANODIZE",        "after": ["op30"] },
+    { "id": "op50", "type": "CMM_INSPECT",    "after": ["op40", "op20"] },
+    { "id": "op60", "type": "PACK",           "after": ["op50"] }
+  ]
+}

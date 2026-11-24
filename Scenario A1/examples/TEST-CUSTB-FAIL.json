@@ -1,0 +1,12 @@
+{
+  "routing_id": "R-T003",
+  "part": "TEST-CUSTB-FAIL",
+  "customer": "Customer B",
+  "operations": [
+    { "id": "op10", "type": "TURN", "after": [] },
+    { "id": "op20", "type": "CMM_INSPECT", "after": ["op10"] },
+    { "id": "op30", "type": "PAINT", "after": ["op20"] },
+    { "id": "op40", "type": "VISUAL_INSPECT", "after": ["op30"] },
+    { "id": "op50", "type": "PACK", "after": ["op40"] }
+  ]
+}

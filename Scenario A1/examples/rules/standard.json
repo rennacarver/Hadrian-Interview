@@ -1,0 +1,5 @@
+[
+  { "id": "MACHINING_BEFORE_SURFACE", "kind": "ORDER_BEFORE", "first": ["MILL", "TURN", "DRILL"], "then": ["PAINT", "ANODIZE"] },
+  { "id": "CMM_AFTER_MACHINING", "kind": "FOLLOWED_BY", "targets": ["MILL", "TURN", "DRILL"], "requires": ["CMM_INSPECT"] },
+  { "id": "PACK_LAST", "kind": "LAST", "type": "PACK" }
+]

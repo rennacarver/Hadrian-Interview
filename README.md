@@ -40,6 +40,28 @@ How you specify what you want and direct the work:
 - Making trade-offs under ambiguity
 - Leveraging AI to produce production-grade work
 
+### The problem chain
+
+Most builder problems fit this chain. Ask one question for each box and each arrow, and fill in a skeleton `SPEC.md` as the answers come in.
+
+```
+WHO creates input → INPUT (shape?) → CHECK/TRANSFORM (rules?) → OUTPUT (shape?) → WHO acts on it → WHEN
+                                              ↑                         ↓
+                                     who maintains rules?      what if it's wrong? (exceptions, false alarms)
+```
+
+- **Start with a quick first pass:** "I understand things best by working an example. Let me trace this one by hand for a minute."
+- **Ask what makes it hard:** "What makes this harder than it looks?" and "Why hasn't this been automated already?"
+- **Play it back** before writing the spec: "So X creates Y, we check it against Z, and W acts on the result at time T. Right?"
+
+Example from the routing-validation mock ([Builder Mock Interview.md](Builder%20Mock%20Interview.md)):
+
+```
+ME (15, not programmers) → routing JSON (a graph, not a list) → check against customer's rules
+   → violations list → QE (fix, or override with an auditable reason) → at release time
+   rules: per customer, will keep growing    |    false positives are what kill adoption
+```
+
 ### Logistics
 
 - **Language:** Any. Use whichever you know best.
